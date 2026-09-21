@@ -1,11 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback, useMemo } from "react";
 
-/* ==========================================================================
-   VINEYARD WORKER'S OF CHRIST CHURCH — Premium Website v2 (single file)
-   Stack: React + Tailwind CSS (koi extra package nahi)
-   Theme: Midnight Navy + Ivory + Champagne Gold + Stained-glass glow
-   ========================================================================== */
-
 /* ------------------------------ CONFIG ---------------------------------- */
 const CONFIG = {
   name: "MANYX FINANCIAL SERVICES PRIVATE LIMITED",
