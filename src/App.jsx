@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef, useCallback, useMemo } from "react"
 
 /* ------------------------------ CONFIG ---------------------------------- */
 const CONFIG = {
-  name: "MANYX FINANCIAL SERVICES PRIVATE LIMITED",
+  name: "LANDCARE REALTY LLP",
   tagline: "Rooted in Christ. Growing in Love.",
   pastor: "Pastor David Samuel",
   phone: "+91 98765 43210",
@@ -670,7 +670,7 @@ const Ministries = () => (
     <div className="absolute top-20 -left-40 w-[460px] h-[460px] rounded-full bg-[#8f1d3a]/25 blur-[130px] anim-blob" aria-hidden="true" />
     <div className="absolute bottom-0 -right-40 w-[460px] h-[460px] rounded-full bg-[#2b4fa8]/30 blur-[130px] anim-blob" aria-hidden="true" />
     <div className="relative max-w-7xl mx-auto px-5">
-      <SectionTitle dark title="Ways to Grow and Serve" sub="Find your place in the vineyard. There is a ministry for every age and every calling." />
+      <SectionTitle dark title="LANDCARE REALTY LLP" sub="Find your place in the vineyard. There is a ministry for every age and every calling." />
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
         {MINISTRIES.map((m, k) => (
           <Reveal key={m.title} delay={(k % 4) * 120}>
@@ -713,7 +713,7 @@ const StripRow = ({ list, rev }) => {
 
 const Strips = () => (
   <section className="relative py-20 sm:py-24 bg-[#f8f4ea] overflow-hidden">
-    <SectionTitle title="Life at the Vineyard" sub="Worship, fellowship, children and creation. This is the everyday story of our church." />
+    <SectionTitle title="Life at the Vineyard  LandCare Realty LLP " sub="Worship, fellowship, children and creation. This is the everyday story of our church." />
     <StripRow list={STRIP} />
     <StripRow list={STRIP2} rev />
   </section>
@@ -754,7 +754,7 @@ const Sermons = () => {
   return (
     <section id="sermons" className="relative py-24 sm:py-32 bg-[#060b20] overflow-hidden">
       <div className="max-w-7xl mx-auto px-5">
-        <SectionTitle dark title="Watch and Be Encouraged" sub="Missed a service? Catch up on sermons, worship and testimonies anytime." />
+        <SectionTitle dark title="Watch and Be Encouraged  LandCare Realty LLP" sub="Missed a service? Catch up on sermons, worship and testimonies anytime." />
 
         <Reveal dir="zoom">
           <div className="group relative h-[400px] sm:h-[560px] rounded-[2rem] overflow-hidden border border-[#c9a24b]/40 shadow-[0_30px_100px_rgba(0,0,0,.7)]">
